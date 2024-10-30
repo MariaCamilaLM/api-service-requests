@@ -1,0 +1,52 @@
+<?php
+
+return [
+    'user.welcome' => 'Bienvenido',
+    'user.logout' => 'Cerrar sesión',
+    'user.profile' => 'Perfil',
+    'user.login' => 'Iniciar de Sesión',
+    'user.password' => 'Contraseña',
+    'user.email' => 'Correo Electrónico',
+    'user.password.required' => 'Contraseña requerida',
+    'user.invalid.email'=> 'Correo electrónico incorrecto',
+    
+    'client.dashboard.title' => 'Tus Tiquetes Actuales',
+    'client.table.title' => 'Titulo',
+    'client.table.description' => 'Descripción',
+    'client.table.status' => 'Estado',
+
+    'create_ticket.title' => 'Crear un Nuevo Ticket',
+    'create_ticket.form.title' => 'Título',
+    'create_ticket.form.description' => 'Descripción',
+    'create_ticket.form.equipment_number' => 'Número de Equipo',
+    'create_ticket.form.serial_number' => 'Número de Serie',
+    'create_ticket.form.brand' => 'Marca',
+    'create_ticket.form.files' => 'Adjuntos',
+    'create_ticket.form.file' => 'Archivo',
+    'create_ticket.form.priority' => 'Prioridad',
+    'create_ticket.form.is_under_warranty' => 'Está en Garantía?',
+    'create_ticket.form.accept_conditions' => 'Acepto los términos y condiciones',
+    'create_ticket.form.upload_documents' => 'Subir Documentos',
+    'create_ticket.form.selected_files' => 'Archivos Seleccionados:',
+    'create_ticket.form.submit' => 'Crear Ticket',
+
+    'create_ticket.errors.title_required' => 'Se requiere un título.',
+    'create_ticket.errors.description_required' => 'Se requiere una descripción.',
+    'create_ticket.errors.equipment_number_required' => 'Se requiere el número de equipo.',
+    'create_ticket.errors.serial_number_required' => 'Se requiere el número de serie.',
+    'create_ticket.errors.brand_required' => 'Se requiere una marca.',
+    'create_ticket.errors.priority_required' => 'Se requiere una prioridad.',
+    'create_ticket.errors.accept_conditions_required' => 'Debe aceptar los términos y condiciones.',
+
+    'ticket.comments'=> 'Comentarios',
+    'ticket.submit'=> 'Crear',
+    'ticket.upload.files' => 'Subir Archivos',
+    'ticket.upload.selected.files'=> 'Subir Archivos Seleccionados',
+    'ticket.change.status'=> 'Cambiar Estado',
+    'ticket.new.comment' => 'Nuevo Comentario',
+    'ticket.new.status' => 'Nuevo Estado',
+    'tickets.assigned' => 'Mis Ticketes Asignados',
+    'tickets.unassigned'=> 'Ticketes sin Asignacion',
+    'ticket.assign.to.me'=> 'Asignar a Mi',
+
+];
