@@ -204,14 +204,16 @@ class TicketController extends Controller
 
     public function assignToMe( Request $request, $ticketId) {
         $user = Auth::user();
-
+        Log::info("Crum");
         if ($user->profile !== 'engineer') {
             return response()->json(['Unauthorized'=> ''],403);
         }
 
         $ticket = Ticket::findOrFail($ticketId);
-        $ticket->engineer_id = $user->engineers()->id;
-        $$ticket->save();
+        Log::info($user);
+        $engineer = Engineer::where('user_id', $user->id)->first();
+        $ticket->engineer_id = $engineer->id;
+        $ticket->save();
 
         return response()->json(['message'=> '',''=> $ticket->id], 200);
     }

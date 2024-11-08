@@ -55,7 +55,7 @@ class User extends Authenticatable
 
     public function engineers()
     {
-        return $this->hasOne(Engineer::class);
+        return $this->hasOne(Engineer::class, 'user_id', 'id');
     }
 
     public function isClient()
