@@ -32,6 +32,7 @@ Route::middleware('auth:api')->group(function () {
         Route::post('/comment/{id}', [TicketController::class, 'createComment']);
         Route::get('/comment/{id}', [TicketController::class, 'getCommmentByTicketId']);
         Route::get('/assign-to-me/{id}', [TicketController::class,'assignToMe']);
+        Route::post('/change-status/{id}', [TicketController::class, 'update']);
     });
 
     Route::prefix('tickets/{ticketId}/comments')->group(function () {

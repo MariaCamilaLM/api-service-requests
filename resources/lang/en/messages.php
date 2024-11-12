@@ -48,4 +48,14 @@ return [
     'tickets.assigned' => 'My Assigned Tickets',
     'tickets.unassigned'=> 'Unassigned Tickets',
     'ticket.assign.to.me'=> 'Assign To Me',
+    
+    'client.dashboard' => 'Client Dashboard',
+    'client.create_request' => 'Create New Request',
+    'client.change_profile' => 'Change Profile',
+    'engineer.dashboard' => 'Engineer Dashboard',
+    'engineer.manage_requests' => 'Manage Requests',
+    'engineer.view_reports' => 'View Reports',
+
+    'client' => 'Client',
+    'engineer' => 'Engineer',
 ];

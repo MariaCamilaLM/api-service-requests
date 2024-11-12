@@ -49,4 +49,13 @@ return [
     'tickets.unassigned'=> 'Ticketes sin Asignacion',
     'ticket.assign.to.me'=> 'Asignar a Mi',
 
+    'client.dashboard' => 'Tablero del Cliente',
+    'client.create_request' => 'Crear Nueva Solicitud',
+    'client.change_profile' => 'Cambiar Perfil',
+    'engineer.dashboard' => 'Tablero del Ingeniero',
+    'engineer.manage_requests' => 'Gestionar Solicitudes',
+    'engineer.view_reports' => 'Ver Reportes',
+
+    'client' => 'Cliente',
+    'engineer' => 'Ingeniero',
 ];

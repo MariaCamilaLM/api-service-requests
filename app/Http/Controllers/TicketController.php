@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use App\Events\FileUploaded;
+use App\Events\TicketCreated;
+use App\Events\TicketUpdated;
 use App\Models\Client;
 use App\Models\Engineer;
 use App\Models\TicketFile;
@@ -45,7 +47,8 @@ class TicketController extends Controller
                 $ticket->files()->create(['file_path' => $filePath]);
             }
         }
-
+        event(new TicketCreated($ticket));
+        
         return response()->json($ticket, 201);
     }
 
@@ -87,6 +90,8 @@ class TicketController extends Controller
         ]);
 
         $ticket->update($request->all());
+        event(new TicketUpdated($ticket));
+
         return response()->json($ticket, 200);
     }
 
@@ -204,7 +209,7 @@ class TicketController extends Controller
 
     public function assignToMe( Request $request, $ticketId) {
         $user = Auth::user();
-        Log::info("Crum");
+
         if ($user->profile !== 'engineer') {
             return response()->json(['Unauthorized'=> ''],403);
         }

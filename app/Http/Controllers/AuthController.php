@@ -117,7 +117,7 @@ class AuthController extends Controller
     {
         $user = Auth::user();
 
-        return response()->json(['role' => $user->profile], 200);
+        return response()->json(['role' => $user->profile, 'name' => $user->name], 200);
     }
 
 }

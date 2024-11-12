@@ -21,7 +21,6 @@ class Ticket extends Model
         'is_under_warranty',
         'accept_conditions',
         'title',
-        'comments'
     ];
 
     public function files()
