@@ -23,7 +23,7 @@ return [
     'client.table.description' => 'Descripción',
     'client.table.status' => 'Estado',
 
-    'create_ticket.title' => 'Crear un Nuevo Solicitud',
+    'create_ticket.title' => 'Crear una Nuevo Solicitud',
     'create_ticket.form.title' => 'Título',
     'create_ticket.form.description' => 'Descripción',
     'create_ticket.form.equipment_number' => 'Número de Equipo',
