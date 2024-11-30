@@ -9,13 +9,19 @@ return [
     'user.email' => 'Correo Electrónico',
     'user.password.required' => 'Contraseña requerida',
     'user.invalid.email'=> 'Correo electrónico incorrecto',
-    
-    'client.dashboard.title' => 'Tus Tiquetes Actuales',
-    'client.table.title' => 'Titulo',
+    'user.menu' => 'Menú',
+    'user.knowledge.base' => 'Base de Conocimiento',
+    'user.drop.files' => 'Arrastre sus archivos aquí o presione Subir Archivos',
+    'user.selected.files' => 'Archivos Seleccionados:',
+    'user.upload.files' => 'Subir Archivos',
+    'user.read.more' => 'Leer Más',
+
+    'client.dashboard.title' => 'Tus Solicitudes Actuales',
+    'client.table.title' => 'Título',
     'client.table.description' => 'Descripción',
     'client.table.status' => 'Estado',
 
-    'create_ticket.title' => 'Crear un Nuevo Ticket',
+    'create_ticket.title' => 'Crear un Nuevo Solicitud',
     'create_ticket.form.title' => 'Título',
     'create_ticket.form.description' => 'Descripción',
     'create_ticket.form.equipment_number' => 'Número de Equipo',
@@ -28,7 +34,7 @@ return [
     'create_ticket.form.accept_conditions' => 'Acepto los términos y condiciones',
     'create_ticket.form.upload_documents' => 'Subir Documentos',
     'create_ticket.form.selected_files' => 'Archivos Seleccionados:',
-    'create_ticket.form.submit' => 'Crear Ticket',
+    'create_ticket.form.submit' => 'Crear Solicitud',
 
     'create_ticket.errors.title_required' => 'Se requiere un título.',
     'create_ticket.errors.description_required' => 'Se requiere una descripción.',
@@ -45,8 +51,8 @@ return [
     'ticket.change.status'=> 'Cambiar Estado',
     'ticket.new.comment' => 'Nuevo Comentario',
     'ticket.new.status' => 'Nuevo Estado',
-    'tickets.assigned' => 'Mis Ticketes Asignados',
-    'tickets.unassigned'=> 'Ticketes sin Asignacion',
+    'tickets.assigned' => 'Mis Solicitudes Asignados',
+    'tickets.unassigned'=> 'Solicitudes sin Asignacion',
     'ticket.assign.to.me'=> 'Asignar a Mi',
 
     'client.dashboard' => 'Tablero del Cliente',

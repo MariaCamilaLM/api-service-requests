@@ -24,7 +24,6 @@ class TicketController extends Controller
         $request->validate([
             'priority' => 'required|string|max:255',
             'issue_description' => 'required|string',
-            'equipment_number' => 'required|string|max:255',
             'serial_number' => 'required|string|max:255',
             'brand' => 'required|string|max:255',
             'is_under_warranty' => 'required',
@@ -81,7 +80,6 @@ class TicketController extends Controller
             'status' => 'sometimes|required|string|max:255',
             'priority' => 'sometimes|required|string|max:255',
             'issue_description' => 'sometimes|required|string',
-            'equipment_number' => 'sometimes|required|string|max:255',
             'serial_number' => 'sometimes|required|string|max:255',
             'brand' => 'sometimes|required|string|max:255',
             'is_under_warranty' => 'sometimes|required|boolean',
