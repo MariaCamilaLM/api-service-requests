@@ -4,7 +4,7 @@ return [
     'user.welcome' => 'Bienvenido',
     'user.logout' => 'Cerrar sesión',
     'user.profile' => 'Perfil',
-    'user.login' => 'Iniciar de Sesión',
+    'user.login' => 'Iniciar Sesión',
     'user.password' => 'Contraseña',
     'user.email' => 'Correo Electrónico',
     'user.password.required' => 'Contraseña requerida',
