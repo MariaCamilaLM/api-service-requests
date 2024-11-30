@@ -15,6 +15,8 @@ return [
     'user.selected.files' => 'Selected Files:',
     'user.upload.files' => 'Upload Files',
     'user.read.more' => 'Read More',
+    'user.register' => 'Register',
+    'user.forgot.password' => 'Forgot Password?',
     
     'client.dashboard.title' => 'Your Current Requests',
     'client.table.title' => 'Title',

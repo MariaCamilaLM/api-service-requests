@@ -15,6 +15,8 @@ return [
     'user.selected.files' => 'Archivos Seleccionados:',
     'user.upload.files' => 'Subir Archivos',
     'user.read.more' => 'Leer Más',
+    'user.register' => 'Registrarme',
+    'user.forgot.password' => 'Olvido su Contraseña?',
 
     'client.dashboard.title' => 'Tus Solicitudes Actuales',
     'client.table.title' => 'Título',
